@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--二维码扫描框的最大宽度-->
+    <integer name="qr_max_camera_frame_width">480</integer>
+    <!--二维码扫描框的最大高度-->
+    <integer name="qr_max_camera_frame_height">320</integer>
+</resources>

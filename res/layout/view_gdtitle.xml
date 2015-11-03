@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/titlebar_background" >
+    <ImageButton
+        android:id="@+id/gdtitle_left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gdtitle_back"
+        android:paddingLeft="12dp"
+        android:paddingRight="@dimen/gdtitle_padding"
+        android:paddingBottom="@dimen/gdtitle_padding"
+        android:paddingTop="@dimen/gdtitle_padding"
+        android:src="@drawable/ic_btn_list_back" />
+    <ImageButton
+        android:id="@+id/gdtitle_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gdtitle_back"
+        android:paddingLeft="@dimen/gdtitle_padding"
+        android:paddingRight="12dp"
+        android:paddingBottom="@dimen/gdtitle_padding"
+        android:paddingTop="@dimen/gdtitle_padding"
+        android:src="@drawable/ic_delete_rubbish"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/gdtitle_rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_gdtitle_right"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/gdtitle_textcolor"
+        android:textSize="@dimen/edittext_text_size"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/gdtitle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/gdtitle_right"
+        android:layout_toRightOf="@id/gdtitle_left"
+        android:gravity="center"
+        android:textColor="@color/gdtitle_textcolor"
+        android:textSize="@dimen/gdtitle_text_size" />
+</RelativeLayout>

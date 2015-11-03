@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QR_CodeScan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_Mipca_Capture">扫描二维码</string>
+
+    <string name="scan_text">请将车机导航或社区二维码放入框内，即可自动扫描</string>
+
+</resources>

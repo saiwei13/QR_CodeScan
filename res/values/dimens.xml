@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 高德标题文本高度 -->
+    <dimen name="gdtitle_height">48dip</dimen>
+    <!-- 高德标题文本上下左右填充距离 -->
+    <dimen name="gdtitle_padding">6dip</dimen>
+    <!-- 高德标题文本上下左右填充距离 -->
+    <dimen name="gdtitle_right_btn_height">36dp</dimen>
+    <dimen name="gdtitle_right_btn_magin_right">6dp</dimen>
+    <!-- 高德标题文本字体大小 -->
+    <dimen name="gdtitle_text_size">20sp</dimen>
+    <dimen name="edittext_text_size">14sp</dimen>
+    <!--二维码扫描框的最大宽度-->
+    <integer name="qr_max_camera_frame_width">480</integer>
+    <!--二维码扫描框的最大高度-->
+    <integer name="qr_max_camera_frame_height">360</integer>
+</resources>
