@@ -156,6 +156,9 @@ public class MipcaActivityCapture extends Activity implements Callback, IQRCodeS
 		if (resultString.equals("")) {
 			Toast.makeText(MipcaActivityCapture.this, "Scan failed!", Toast.LENGTH_SHORT).show();
 		} else {
+
+			Toast.makeText(this,"结果是："+resultString,Toast.LENGTH_LONG).show();
+
 			Intent resultIntent = new Intent();
 			Bundle bundle = new Bundle();
 			bundle.putString("result", resultString);
